@@ -9,15 +9,14 @@ import chess.ChessMatch;
 import chess.ChessPiece;
 import chess.ChessPosition;
 
-
-
-public class Pogram {
+public class Program {
 
 	public static void main(String[] args) {
 		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		ChessMatch chessMatch = new ChessMatch();
+		
 		
 		while (true) {
 			try {
